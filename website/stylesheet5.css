@@ -1,0 +1,584 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	background: #fcfcfc;
+	position: relative;
+}
+
+header{
+	width: 100%;
+	height: 60px;
+	background: #fff;
+	position: fixed;
+	margin: 0px;
+	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.08);
+	z-index: 5000;
+	top: 0px;
+
+}
+
+header div{
+	display: inline-block;
+	background: none;
+	width: 120px;
+	height: 60px;
+	
+}
+
+header div a figure{
+	width: 120px;
+	height: 60px;
+	margin: 0px;
+	margin-left: 20px;
+
+}
+
+header div a figure img{
+	width: 90%;
+	padding-top: 14px;
+}
+
+header nav{
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+}
+
+header nav .ioMenuMovil{
+	height: 25px;
+	width: 25px;
+	cursor: pointer;
+	position: absolute;
+	overflow: hidden;
+	padding-top: 5px;
+	z-index: 4000;
+	margin: 0px;
+	top: 16px;
+	right: 22px;
+}
+
+header nav .ioMenuMovil img{
+	width: 80%;
+	
+}
+
+header nav #card_menu{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #fff;
+	top: 0px;
+	left: 0px;
+	top: -60px;
+
+}
+
+	header nav #hideMenu {
+		display: none;
+	}
+
+	header nav #card_menu #header_container{
+		width: 100%;
+		height: 60px;
+		box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.08);
+	}
+
+
+header nav #card_menu #logo_menu{
+	margin-left: 20px;
+	width: 108px;
+	height: 60px;
+	background: none;
+
+
+
+}
+
+header nav #card_menu #logo_menu img{
+	background: none;
+	width: 100%;
+	margin-top: 14px;
+	margin-left: 0px;
+	
+} 
+
+header nav #card_menu ul{
+	position: relative;
+	background: #fff;
+	list-style: none;
+	line-height: 36px;
+	margin-top: 10px;
+	height: 300px;
+	width: 100%;
+}
+
+header nav #card_menu ul li{
+	text-transform: uppercase;
+	letter-spacing: .02em;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 10px 20px;
+	font-weight: 700;
+	font-size: .75em;
+	background: none;
+	color: #576a7a;
+
+}
+
+
+section.hero_home{
+	position: relative;
+	margin-top: -20px;
+	padding: 0px;
+	background-image: url("images/uno.jpg");
+	background-size: cover;
+	background-position-x:60%;
+	height: 600px;
+
+	width: 100%;
+	}
+
+	div.hero_content{
+		position: relative;
+		background: rgba(255, 255, 255, .8);
+		margin: 0px 20px 0px 20px;
+		top: 17em;
+		border-radius: .35em;
+		max-width: 40em;
+  		background: rgba(241, 245, 248, 0.95);
+  		box-shadow: 0 0.125em 0.5em 0 rgba(4, 49, 64, 0.1);
+  		transition: box-shadow .3s ease-in-out, transform .5s ease-in-out, opacity .3s ease-in-out;
+	}
+
+ h1 {
+ 	position: relative;
+	margin-top: 0px;
+	background: none;
+	font-weight: 100;
+	padding: 20px 18px 0px 18px;
+	font-size: 2.2em;
+	display: block;
+	color: #50c3e5;
+	text-align: center;
+}
+
+span {
+	display: none;
+	font-size: .4em;
+	margin-top: 1em;
+	line-height: 2em;
+	color: #576a7a;
+	font-weight: 300;
+}
+
+.hero_home .hero_content div.btn{
+	position: relative;
+	  display: block;
+  background: #50c3e5;
+  color: white;
+  font-size: .75em;
+  text-transform: uppercase;
+  line-height: 3em;
+  padding: .75em .2em;
+  border-radius: .25em;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: .02em;
+  margin: 1em auto 0;
+  max-width: 40em;
+  top: 0px;
+}
+
+.hero_home .hero_content div.btn a.start_quoter{
+	color: white;
+	text-decoration: none;
+	padding: 0px;
+}
+
+.main_content{
+	display: block;
+	position: relative;
+	background: #fcfcfc;
+	height:1000px;
+	margin: 0px;
+	top: 28.5em;
+}
+
+.main_content h2{
+	position: relative;
+	margin-top: 0px;
+	background: none;
+	font-weight: 100;
+	padding: 2em 1.2em 2em 1.2em;
+	font-size: 2em;
+	display: block;
+	color: #50c3e5;
+	text-align: center;
+}
+
+
+.main_content .cards_container {
+	background: none; 
+	margin: 0 auto; 
+	vertical-align: middle;
+	align-content: center;
+	position: relative;
+}
+
+.main_content .cards_container ul.cards{
+	background: none;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	text-decoration: none;
+	padding: 0px;
+	align-content: center;
+	justify-content: center;
+	position: relative;
+	left: 0px;
+}
+
+.main_content .cards_container ul.cards li{
+	display: inline-block;
+	position: relative;
+	margin: 1em 1.5em 1em 1.5em ;
+	list-style: none;
+	height: 25em;
+	border-radius: .35em;
+		max-width: 18em;
+  		background: white;
+  		box-shadow: 0 0.125em 0.5em 0 rgba(4, 49, 64, 0.1);
+  		transition: box-shadow .3s ease-in-out, transform .5s ease-in-out, opacity .3s ease-in-out;
+	align-content: center;
+	display: inline-block;
+	min-width: 1em;
+}
+
+
+.main_content .cards_container ul.cards li.product_card{
+text-align: center;
+justify-content:center;
+}
+
+.main_content .cards_container ul.cards li a{
+	text-decoration: none;
+}
+
+.main_content .cards_container ul.cards li a img{
+	position: relative;
+	align-items: center;
+	margin: 2.5em 6.5em 1em 6.5em ;
+}
+
+.main_content .cards_container ul.cards li h3{
+	font-weight: 700;
+	font-size: 1.125em;
+	text-transform: uppercase;
+	padding: 0em 1em .8em 1em;
+	text-decoration: none;
+	color: #50c3e5;
+	text-align: center;
+	letter-spacing: .02em;
+
+}
+
+.main_content .cards_container ul.cards li p{
+	padding: .8em 2em 2.5em 2em;
+	font-weight: 400;
+	font-size: .9em;
+	line-height: 1.75em;
+	color: #576a7a;
+	text-align: center;
+
+
+}
+
+.main_content .cards_container ul.cards div.btn{
+		position: relative;
+	  
+  background: rgba(80, 195, 229);
+  color: white;
+  font-size: .85em;
+  text-transform: uppercase;
+  line-height: 3em;
+  padding: .5em .2em;
+  border-radius: .25em;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: .02em;
+  margin: 1.35em 0;
+  max-width: 40em;
+  top: 0px;
+
+}
+
+
+.main_content .cards_container ul.cards div.btn p{
+		color: white;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: center;
+	padding: 1em;
+	 font-weight: 700;
+
+}
+.company_alliances{
+	display: block;
+	position: relative;
+	background: #f7f7f7;
+	width: 100%;
+	height: 600px;
+	margin: 0px;
+	top: 140em;
+	bottom: 0px;
+	justify-content: none;
+	vertical-align: none;
+	align-items: none;
+}
+
+.company_alliances .contain_large{
+	position: relative;
+	background: none;
+	margin: 0;
+
+
+
+}
+
+.company_alliances .contain_large h2{
+position: relative;
+	margin: 0;
+	background: none;
+	font-weight: 100;
+	padding: 2em 1em 1em 1.2em;
+	font-size: 2em;
+	display: block;
+	color: #50c3e5;
+	text-align: left;
+
+	}
+
+	.company_alliances .contain_large p{
+	font-size: 1.1em;
+	margin: 0;
+	line-height: 2em;
+	color: #576a7a;
+	font-weight: 300;
+	padding: .5em 1.5em 2em 2em;
+	background: none;
+	text-align: left;
+	}
+
+.company_alliances figure{
+	height: 500px;
+	width: 100%;
+}
+
+.company_alliances figure img {
+	width: 100%;
+}
+
+
+.company_alliances div{
+	margin-top: 3em;
+}
+
+.company_alliances .company_content .btn{
+	position: relative;
+	 border-style: solid;
+	 border-width: .1em;
+	 border-color: #587995;
+  color: #587995;
+  font-size: .85em;
+  text-transform: uppercase;
+  line-height: 3em;
+  padding: 1em 1em;
+  border-radius: .25em;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: .02em;
+  margin-left: 2.2em;
+  max-width: 20em;
+  top: 0px;
+  font-weight: 700;
+   margin-top: 1.2em;
+}
+
+
+.company_alliances .company_content .btn a{
+	color: #587995;
+	text-decoration: none;
+}
+
+/*
+
+section.hero {
+		width: 100%;
+		position: relative;
+		height: 600px;
+		background: green;
+		top: -20px;
+}
+
+section.hero .main_quote{
+	background: red;
+	z-index: 100000;
+}
+
+
+ h1 {
+ 	position: relative;
+	margin-top: 0px;
+	background: none;
+	font-weight: 100;
+	padding: 25px 15px 25px 25px;
+	font-size: 2.5em;
+	display: block;
+	color: #50c3e5;
+}
+span{
+	display: block;
+	font-size: .4em;
+	margin-top: 1em;
+	line-height: 2em;
+	padding-right: 10px;
+	color: #576a7a;
+}
+
+*/
+
+/* Mobile First */
+
+@media screen and (min-width: 480px){
+	body{
+		background: red;
+}
+
+}
+
+@media screen and (min-width: 600px){
+	body{
+		background: orange;
+}
+	
+}
+
+@media screen and (min-width: 767px){
+	body{
+		background: yellow;
+}
+
+
+@media screen and (min-width: 950px){
+	body{
+		background: #f7f7f7;
+	}
+
+
+	header {
+		height: 90px;
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		right: 0px;
+
+	}
+
+	header div{
+		display: inline-block;
+		width: 15%;
+		background: none;
+		margin: 0px;
+		height: 90px;
+		margin-left: 30px;
+		line-height: 90px;
+		min-width: 120px;
+	}
+
+
+	header div a figure{
+
+		height:90px;
+		width: 150px;
+		background: none;
+		margin-top: 0px;
+		padding: 0px;
+	}
+
+	header div a figure img{
+		margin-top: 10px;
+		width: 100%;
+	}
+
+
+
+	header nav{
+		display: inline-block;
+		vertical-align: middle;
+		width: 80%;
+		height: 90px;
+		position: relative;
+		background: none;
+		margin: 0px;
+		right: -20px;
+
+	}
+	
+
+	header nav #showMenu {
+		display: none;
+
+	}
+
+	header nav #card_menu{
+		display: inline-block;
+		background: none;
+		position: relative;
+		top: 0px;
+		width: 100%;
+		text-align: right;
+		margin: 0px;
+		padding: 0px;
+		height: 90px;
+	}
+
+	header nav #card_menu #header_container{
+		display: none;
+	}
+
+	header nav #card_menu figure{
+	display: none;
+}
+
+	header nav #card_menu ul {
+		position: relative;
+		padding: 0px;
+		margin: 0px;
+		height: 100%;
+		background: none;
+		vertical-align: middle;
+
+	}
+
+	header nav #card_menu ul li {
+		display: inline-block;
+		width: 120px;
+		text-align: center;
+		font-size: .75em;
+		line-height: 0px;
+		padding: 15px 0px;
+		margin: 15px 5px 0px 0px;
+		background: none;
+
+
+	}
+	
+
+
+}
